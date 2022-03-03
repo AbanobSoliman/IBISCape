@@ -1,0 +1,18 @@
+# directories created by ros
+*.pyc
+*/lib/
+*/bin/
+*/build/
+*/cfg/cpp/
+*/cfg/*.cfgc
+*/CMakeFiles/
+*/msg_gen/
+*/src/*_msgs/msg/_*.py
+*/src/*_msgs/_*.py
+*/msg/lisp/
+*/srv_gen/
+*/src/*/srv/_*.py
+*/src/*/_*_.py
+*/src/*/srv
+*~
+

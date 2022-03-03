@@ -1,0 +1,23 @@
+Sequence Output Data Format: 
+
+All cameras (APS , RGB , Depth , Semantic Segmentation ) ".csv file":
+Frames folder | timestamps (nano-seconds); frame_name.png
+
+DVS ".csv file":
+timestamp (*micro*-seconds); x; y; p
+
+GNSS ".csv file":
+timestamp (nano-seconds); latitude; longitude; altitude
+
+IMU ".csv file": 
+ timestamp (nano-seconds); imu_sensor.accelerometer[x]; imu_sensor.accelerometer[y]; imu_sensor.accelerometer[z]; imu_sensor.gyroscope[x]; imu_sensor.gyroscope[y]; imu_sensor.gyroscope[z]
+
+Vehicle(name) simulation ".txt file": 
+timestamp (nano-seconds); throttle; steer; brake
+
+Groundtruth ".csv file":
+timestamp (nano-seconds); Pose.location.x; Pose.location.y; Pose.location.z; velocity.x; velocity.y; velocity.z; Acceleration.x; Acceleration.y; Acceleration.z; Pose.quaternion.w; Pose.quaternion.x; Pose.quaternion.y; Pose.quaternion.z; Angvelocity.x; Angvelocity.y; Angvelocity.z
+
+* All angles and angular rates are in radians.
+* Values in all files are separated with semi-colon ';' delimiter.
+-----------------------------------------------------------------------------------------------------------
