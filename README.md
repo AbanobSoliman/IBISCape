@@ -1,4 +1,4 @@
-# IBISCape: Multimodal  Frameworks  for  Heterogeneous  Data Acquisition  in  Dynamic  Environments 
+# IBISCape: A Simulated Benchmark for multi-modal SLAM Systems Evaluation in Large-scale Dynamic Environments
 
 <p align="center">
     <img src="IBISCape_github.gif" alt="Video to Events" width="800"/>
