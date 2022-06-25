@@ -17,7 +17,7 @@ To run any of our acquisition frameworks, make sure you have:
 ```bash
 $ python3 framework_name.py
 ```
-- We performed the monocular RGB-IMU calibration using [kalibr](https://github.com/ethz-asl/kalibr.git), and all the configuration .yaml files are added to the yaml_config_files folder. (Also, configuration files for [OKVIS](https://github.com/ethz-asl/okvis.git) and [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3.git))
+- We performed the stereo RGB-IMU calibration using [kalibr](https://github.com/ethz-asl/kalibr.git), and all the configuration .yaml files are added to the yaml_config_files folder. (Also, configuration files for [EVO](https://github.com/uzh-rpg/rpg_dvs_evo_open), [ESVO](https://github.com/HKUST-Aerial-Robotics/ESVO), [BASALT](https://github.com/VladyslavUsenko/basalt-mirror) and [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3.git))
 > The calibration data acquisition is done manually, where the user can collect sequences with all the movements specific to his application.
 ## VI-SLAM Acquisition frameworks 
 - Play your desired CARLA-town, then run one of our 4 data acquisition frameworks: `(full_sensor_setup)`, `(rgb_depth)`, `(stereo_dvs_imu)`, and `(stereo_rgb_imu)`.
