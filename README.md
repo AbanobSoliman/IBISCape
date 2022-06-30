@@ -31,3 +31,13 @@ $ python3 framework_name.py
 ## IBISCape ROS_tools
 - Here we developed some python scripts to help in creating ROS bags for ROS-based calibration and odometry frameworks with the right and synchronized timestamping.
 - Also, some additional scripts to read the rosbags, convert all RGB images in sequence folder to grayscale images, and associating the RGB with the corresponding depth maps.
+
+## Citation
+If you are interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work, please cite the following [paper](https://arxiv.org/abs/2206.13455):
+
+    @article{2206.13455,
+    author = {Abanob Soliman and Fabien Bonardi and Désiré Sidibé and Samia Bouchafa},
+    title = {{IBISCape}: A Simulated Benchmark for multi-modal {SLAM} Systems Evaluation in Large-scale Dynamic Environments},
+    year = {2022},
+    journal = {arXiv:2206.13455v1},
+    }
