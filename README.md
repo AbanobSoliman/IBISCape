@@ -4,15 +4,29 @@
     <img src="IBISCape_github.gif" alt="Video to Events" width="800"/>
 </p>
 
+## Citation
+If you are interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work, please cite the following [paper](https://arxiv.org/abs/2206.13455):
+
+    @article{2206.13455,
+    author = {Abanob Soliman and Fabien Bonardi and Désiré Sidibé and Samia Bouchafa},
+    title = {{IBISCape}: A Simulated Benchmark for multi-modal {SLAM} Systems Evaluation in Large-scale Dynamic Environments},
+    year = {2022},
+    journal = {arXiv:2206.13455v1},
+    }
+
 To run any of our acquisition frameworks, make sure you have: 
 - CARLA installed version up to 0.9.11 [CARLA installation repository](https://github.com/carla-simulator/carla.git).
-> IBISCape frameworks are tested on CARLA versions: 0.9.10, 0.9.10.1, and best performance with 0.9.11.
+> IBISCape frameworks are tested on CARLA versions: [0.9.10](https://carla.readthedocs.io/en/0.9.10/build_linux/), 0.9.10.1, and best performance with [0.9.11](https://carla.readthedocs.io/en/0.9.11/build_linux/).
 - OpenCV any version [OpenCV installation repository](https://github.com/opencv/opencv.git).
 - Clone our IBISCape repository in a folder next to your CARLA installation directory and check the (.egg) file imported in all the frameworks to be similar to your installation [Check this link](https://carla.readthedocs.io/en/latest/build_system/#versions-prior-to-0912).
 ## Calibration Acquisition frameworks 
 - Our new Calibration targets added to CARLA-Town3 can be downloaded from this [link](https://ueve-my.sharepoint.com/:f:/g/personal/abanob_soliman_univ-evry_fr/EhMGdMFvWtNApc8B1xJk05cBPAAvnrrdivA86QBMkddoHQ?e=rfWolS).
 - Add our CARLA calibration town to the Map content folder to your CARLA installation directory `/your_CARLA_directory/carla/Unreal/CarlaUE4/Content/Carla/Maps/`.
-- Then, open the CARLA-Unreal Engine interface and press Compile, Build and finally Play.
+- Then, open the CARLA-Unreal Engine interface **CarlaUE4.uproject** in 
+```bash
+/Your-CARLA-Directory/carla/Unreal/CarlaUE4
+```
+and press Compile, Build and finally Play.
 - Run one of our 4 data acquisition frameworks: `(full_sensor_setup)`, `(rgb_depth)`, `(stereo_dvs_imu)`, and `(stereo_rgb_imu)`. 
 ```bash
 $ python3 framework_name.py
@@ -31,13 +45,3 @@ $ python3 framework_name.py
 ## IBISCape ROS_tools
 - Here we developed some python scripts to help in creating ROS bags for ROS-based calibration and odometry frameworks with the right and synchronized timestamping.
 - Also, some additional scripts to read the rosbags, convert all RGB images in sequence folder to grayscale images, and associating the RGB with the corresponding depth maps.
-
-## Citation
-If you are interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work, please cite the following [paper](https://arxiv.org/abs/2206.13455):
-
-    @article{2206.13455,
-    author = {Abanob Soliman and Fabien Bonardi and Désiré Sidibé and Samia Bouchafa},
-    title = {{IBISCape}: A Simulated Benchmark for multi-modal {SLAM} Systems Evaluation in Large-scale Dynamic Environments},
-    year = {2022},
-    journal = {arXiv:2206.13455v1},
-    }
