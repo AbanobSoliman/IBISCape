@@ -4,6 +4,24 @@
     <img src="IBISCape_github.gif" alt="Video to Events" width="800"/>
 </p>
 
+## Citation
+If you are interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work, please cite the following [paper](https://link.springer.com/article/10.1007/s10846-022-01753-7):
+
+    @Article{IBISCape22,
+    author={Soliman, Abanob and Bonardi, Fabien and Sidib{\'e}, D{\'e}sir{\'e} and Bouchafa, Samia},
+    title={{IBISCape}: A Simulated Benchmark for multi-modal {SLAM} Systems Evaluation in Large-scale Dynamic Environments},
+    journal={Journal of Intelligent {\&} Robotic Systems},
+    year={2022},
+    month={Oct},
+    day={19},
+    volume={106},
+    number={3},
+    pages={53},
+    issn={1573-0409},
+    doi={10.1007/s10846-022-01753-7},
+    url={https://doi.org/10.1007/s10846-022-01753-7}
+    }
+
 To run any of our acquisition frameworks, make sure you have: 
 - CARLA installed version up to 0.9.11 [CARLA installation repository](https://github.com/carla-simulator/carla.git).
 > IBISCape frameworks are tested on CARLA versions: 0.9.10, 0.9.10.1, and best performance with 0.9.11.
@@ -31,22 +49,3 @@ $ python3 framework_name.py
 ## IBISCape ROS_tools
 - Here we developed some python scripts to help in creating ROS bags for ROS-based calibration and odometry frameworks with the right and synchronized timestamping.
 - Also, some additional scripts to read the rosbags, convert all RGB images in sequence folder to grayscale images, and associating the RGB with the corresponding depth maps.
-
-## Citation
-If you are interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work, please cite the following [paper](https://link.springer.com/article/10.1007/s10846-022-01753-7):
-
-    @Article{IBISCape22,
-    author={Soliman, Abanob and Bonardi, Fabien and Sidib{\'e}, D{\'e}sir{\'e} and Bouchafa, Samia},
-    title={{IBISCape}: A Simulated Benchmark for multi-modal {SLAM} Systems Evaluation in Large-scale Dynamic Environments},
-    journal={Journal of Intelligent {\&} Robotic Systems},
-    year={2022},
-    month={Oct},
-    day={19},
-    volume={106},
-    number={3},
-    pages={53},
-    issn={1573-0409},
-    doi={10.1007/s10846-022-01753-7},
-    url={https://doi.org/10.1007/s10846-022-01753-7}
-    }
-
