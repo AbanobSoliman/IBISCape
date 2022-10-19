@@ -35,10 +35,18 @@ $ python3 framework_name.py
 ## Citation
 If you are interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work, please cite the following [paper](https://arxiv.org/abs/2206.13455):
 
-    @article{2206.13455,
-    author = {Abanob Soliman and Fabien Bonardi and Désiré Sidibé and Samia Bouchafa},
-    title = {{IBISCape}: A Simulated Benchmark for multi-modal {SLAM} Systems Evaluation in Large-scale Dynamic Environments},
-    year = {2022},
-    journal = {arXiv:2206.13455v1},
+    @Article{IBISCape22,
+    author={Soliman, Abanob and Bonardi, Fabien and Sidib{\'e}, D{\'e}sir{\'e} and Bouchafa, Samia},
+    title={{IBISCape}: A Simulated Benchmark for multi-modal {SLAM} Systems Evaluation in Large-scale Dynamic Environments},
+    journal={Journal of Intelligent {\&} Robotic Systems},
+    year={2022},
+    month={Oct},
+    day={19},
+    volume={106},
+    number={3},
+    pages={53},
+    issn={1573-0409},
+    doi={10.1007/s10846-022-01753-7},
+    url={https://doi.org/10.1007/s10846-022-01753-7}
     }
 
