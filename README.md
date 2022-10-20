@@ -5,7 +5,8 @@
 </p>
 
 ## Citation
-If you are interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work, please cite the following [paper](https://link.springer.com/article/10.1007/s10846-022-01753-7):
+Are you interested to use IBISCape data acquisition frameworks, or to evaluate your new SLAM system on IBISCape benchmark in an academic work ! 
+Thanks for citing the following [paper](https://link.springer.com/article/10.1007/s10846-022-01753-7):
 
     @Article{IBISCape22,
     author={Soliman, Abanob and Bonardi, Fabien and Sidib{\'e}, D{\'e}sir{\'e} and Bouchafa, Samia},
